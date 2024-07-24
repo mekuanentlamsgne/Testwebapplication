@@ -11,9 +11,14 @@ namespace gitTest.Controllers
         // GET: Account
         public ActionResult Index()
         {
+
         String var="";
          String var="testtestfro taye";
         
+
+
+            viewbag.message = "Hello World";
+
             return View();
         }
     }
