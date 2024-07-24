@@ -11,6 +11,8 @@ namespace gitTest.Controllers
         // GET: Account
         public ActionResult Index()
         {
+
+            viewbag.message = "Hello World";
             return View();
         }
     }
