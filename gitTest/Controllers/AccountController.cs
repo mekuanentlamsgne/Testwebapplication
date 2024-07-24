@@ -12,6 +12,7 @@ namespace gitTest.Controllers
         public ActionResult Index()
         {
         String var="";
+        
             return View();
         }
     }
