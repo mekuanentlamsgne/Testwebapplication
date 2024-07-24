@@ -18,7 +18,7 @@ namespace gitTest.Controllers
 
 
             viewbag.message = "Hello World";
-
+    viewbag.message2 = "Hello World";
             return View();
         }
     }
