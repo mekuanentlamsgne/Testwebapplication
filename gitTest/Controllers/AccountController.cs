@@ -11,6 +11,7 @@ namespace gitTest.Controllers
         // GET: Account
         public ActionResult Index()
         {
+        String var="";
             return View();
         }
     }
