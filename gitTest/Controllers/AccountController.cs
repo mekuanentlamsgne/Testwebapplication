@@ -12,7 +12,13 @@ namespace gitTest.Controllers
         public ActionResult Index()
         {
 
+        String var="";
+         String var="testtestfro taye";
+        
+
+
             viewbag.message = "Hello World";
+
             return View();
         }
     }
